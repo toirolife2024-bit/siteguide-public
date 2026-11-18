@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "origin": "https://toirolife2024-bit.github.io",
+  "guides": [
+    {
+      "id": "siteguide-demo-1",
+      "origin": "https://toirolife2024-bit.github.io",
+      "path": "/siteguide-public/demo/index.html",
+      "title": "SiteGuide 操作デモ",
+      "trigger": "manual",
+      "status": "ready",
+      "steps": [
+        {
+          "id": "s1",
+          "selector": "[data-guide-target=\"welcome\"]",
+          "title": "この画面について",
+          "body": "使い方の案内を、画面上の対象に合わせて表示します。",
+          "placement": "bottom"
+        },
+        {
+          "id": "s2",
+          "selector": "[data-guide-target=\"services\"]",
+          "title": "サービスを探す",
+          "body": "ボタンの使い方を説明できます。ガイドから自動クリックや送信は行いません。",
+          "placement": "auto"
+        },
+        {
+          "id": "s3",
+          "selector": "[data-guide-target=\"contact\"]",
+          "title": "お問い合わせ",
+          "body": "説明文と順番はChrome拡張機能から変更できます。",
+          "placement": "auto"
+        },
+        {
+          "id": "s4",
+          "selector": "[data-guide-target=\"tip\"]",
+          "title": "いつでも確認",
+          "body": "閉じても右下の「？」から再表示できます。",
+          "placement": "top"
+        }
+      ]
+    },
+    {
+      "id": "siteguide-demo-2",
+      "origin": "https://toirolife2024-bit.github.io",
+      "path": "/siteguide-public/demo/",
+      "title": "SiteGuide 操作デモ",
+      "trigger": "manual",
+      "status": "ready",
+      "steps": [
+        {
+          "id": "s1",
+          "selector": "[data-guide-target=\"welcome\"]",
+          "title": "この画面について",
+          "body": "使い方の案内を、画面上の対象に合わせて表示します。",
+          "placement": "bottom"
+        },
+        {
+          "id": "s2",
+          "selector": "[data-guide-target=\"services\"]",
+          "title": "サービスを探す",
+          "body": "ボタンの使い方を説明できます。ガイドから自動クリックや送信は行いません。",
+          "placement": "auto"
+        },
+        {
+          "id": "s3",
+          "selector": "[data-guide-target=\"contact\"]",
+          "title": "お問い合わせ",
+          "body": "説明文と順番はChrome拡張機能から変更できます。",
+          "placement": "auto"
+        },
+        {
+          "id": "s4",
+          "selector": "[data-guide-target=\"tip\"]",
+          "title": "いつでも確認",
+          "body": "閉じても右下の「？」から再表示できます。",
+          "placement": "top"
+        }
+      ]
+    }
+  ]
+}
