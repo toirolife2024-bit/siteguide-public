@@ -13,8 +13,8 @@
         {
           "id": "test-services",
           "selector": "#app-view .service-panel .service-card[data-service-key=\"business\"], #app-view .service-panel .service-card[data-service-key=\"dispatch\"], #app-view .service-panel .service-card[data-service-key=\"staffing\"]",
-          "title": "① サービスを選択します。",
-          "body": "業務管理・代行配車・応援マッチから、利用するサービスを選択します。",
+          "title": "① 利用するサービスを選びます。",
+          "body": "業務管理・代行配車・応援マッチの中から、使いたいサービスを選びます。",
           "placement": "auto"
         },
         {
