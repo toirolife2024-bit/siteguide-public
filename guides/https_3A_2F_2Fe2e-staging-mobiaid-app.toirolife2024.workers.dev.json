@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "origin": "https://e2e-staging-mobiaid-app.toirolife2024.workers.dev",
+  "guides": [
+    {
+      "id": "mobiaid-core-home-test-starter",
+      "origin": "https://e2e-staging-mobiaid-app.toirolife2024.workers.dev",
+      "path": "/core.html",
+      "title": "ホームのチュートリアル",
+      "trigger": "first",
+      "status": "ready",
+      "steps": [
+        {
+          "id": "test-services",
+          "selector": "#app-view .service-panel .service-card[data-service-key=\"business\"], #app-view .service-panel .service-card[data-service-key=\"dispatch\"], #app-view .service-panel .service-card[data-service-key=\"staffing\"]",
+          "title": "① サービスを選択します。",
+          "body": "業務管理・代行配車・応援マッチから、利用するサービスを選択します。",
+          "placement": "auto"
+        },
+        {
+          "id": "test-settings",
+          "selector": "#company-details, #profile-details, #pricing-details, #vehicles-details, #equipment-details",
+          "title": "② 事前設定をします。",
+          "body": "事業所基本データから機材まで、必要な情報を登録します。",
+          "placement": "auto"
+        },
+        {
+          "id": "test-members",
+          "selector": "#members-details",
+          "title": "③ メンバーを登録します。",
+          "body": "複数名で使う場合は、メンバー設定から追加します。",
+          "placement": "auto"
+        },
+        {
+          "id": "test-contracts",
+          "selector": "#contracts-details",
+          "title": "④ 契約・お支払いを確認します。",
+          "body": "契約・プラン・お支払いの状況をここで確認できます。",
+          "placement": "auto"
+        }
+      ]
+    }
+  ]
+}
